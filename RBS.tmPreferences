@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>RBS Indent</string>
+  <key>scope</key>
+  <string>source.rbs</string>
+  <key>settings</key>
+  <dict>
+    <key>increaseIndentPattern</key>
+    <string>^(\s*)(class|module|interface)\b</string>
+    <key>decreaseIndentPattern</key>
+    <string>^(\s*)end</string>
+  </dict>
+  <key>uuid</key>
+  <string>b532ab49-a206-4d37-8c8e-6c2c8478b13c</string>
+</dict>
+</plist>
